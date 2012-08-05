@@ -1,0 +1,17 @@
+
+JavaのAWTで作られたTwitter投稿専用クライアント。
+src/main/resources 配下に twitter4j.properties を置いてmvn packageして下さい。
+target配下に作成された、依存性を含んだ方のjarをダブルクリックすることで起動出来ます。
+
+
+MIT License
+
+
+# twitter4j.propertiesの雛形
+oauth.consumerKey={your consumer key}
+oauth.consumerSecret={your consumer secret}
+oauth.accessToken={your accessToken}
+oauth.accessTokenSecret={your accessTokenSecret}
+
+http.retryCount=10
+http.useSSL=true
